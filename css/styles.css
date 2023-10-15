@@ -367,8 +367,8 @@ main {
   position: absolute;
   right: 8px;
   top: 8px;
-  height: 30px;
-  width: 30px;
+  height: 16px;
+  width: 16px;
   padding: 6px;
   border-radius: 50%;
   border: 1px solid var(--close-btn-border);
@@ -384,7 +384,7 @@ main {
 .title-modal {
   color: var(--title-modal);
   text-align: center;
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -410,7 +410,7 @@ main {
 }
 .title-label {
   color: var(--label-title);
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -449,7 +449,7 @@ main {
 }
 .reviews::placeholder {
   color: var(--placeholder-color);
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -481,7 +481,7 @@ main {
 }
 .title-terms {
   color: var(--title-terms);
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -509,11 +509,11 @@ main {
 .btn-validate {
   color: var(--color-btn-validate);
   text-align: center;
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
   letter-spacing: 0.96px;
   padding: 10px 80px;
   border: none;
